@@ -1,7 +1,4 @@
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import { CardHeader } from "@mui/material";
-import Typography from "@mui/material";
+import { Card, CardContent, CardHeader, Typography } from "@mui/material";
 
 const Recipe = ({ name, ingredients, instructions }) => {
   return (
